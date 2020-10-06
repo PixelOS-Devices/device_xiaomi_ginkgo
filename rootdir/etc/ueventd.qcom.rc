@@ -347,6 +347,9 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware/
 /dev/hbtp_input           0660   system     system
 /dev/hbtp_vm              0660   system     system
 
+# IR device
+/dev/spidev*              0660   system     system
+
 # Add device block for FRP
 /dev/block/platform/soc/7824900.sdhci/by-name/config    0600   system     system
 /dev/block/platform/soc/7464900.sdhci/by-name/frp       0600   system     system

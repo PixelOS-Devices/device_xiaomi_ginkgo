@@ -232,3 +232,7 @@ ro.surface_flinger.use_color_management=1
 
 # Time
 persist.vendor.delta_time.enable=true
+
+# Chipset
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=trinket

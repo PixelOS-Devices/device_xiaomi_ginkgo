@@ -52,6 +52,11 @@ ro.config.low_ram=false
 # NFC
 ro.se.type=HCE,UICC
 
+#Display 
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
+
 # Media
 debug.stagefright.ccodec=1
 debug.stagefright.omx_default_rank=0

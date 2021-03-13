@@ -33,6 +33,7 @@
     <item type="dimen" name="custom_watermark_text_size_ratio">0.94</item>
     <integer name="custom_watermark_startx">197</integer>
     <integer name="custom_watermark_starty">106</integer>
-    <string name="device_ultra_pixel_watermark_default_text">48MP QUAD CAMERA</string>
-    <string name="device_watermark_default_text">AI QUAD CAMERA</string>
+    <bool name="pref_device_watermark_default">true</bool>
+    <string name="device_ultra_pixel_watermark_default_text">Pixel</string>
+    <string name="device_watermark_default_text">Pixel</string>
 </resources>

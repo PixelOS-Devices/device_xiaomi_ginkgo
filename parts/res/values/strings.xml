@@ -90,7 +90,8 @@
     <string name="contrast_slider_title">Contrast</string>
 
     <!-- Vibration -->
-    <string name="vibration_title">Vibration Control</string>
-    <string name="vibration_strength_title">Strength</string>
-
+    <string name="vibration_control_title">Vibration control</string>
+    <string name="vibration_control_summary">Adjust the vibration strength</string>
+    <string name="vibration_reset">The default value is set</string>
+    <string name="vibration_control_description">Define the strength of the vibration for haptic feedback, incoming call and incoming notification</string>
 </resources>

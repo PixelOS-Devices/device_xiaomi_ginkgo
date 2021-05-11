@@ -56,4 +56,10 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+
+    <!-- Vibration -->
+    <string name="vibration_control_title">Controllo vibrazione</string>
+    <string name="vibration_control_summary">Regola intensità vibrazione</string>
+    <string name="vibration_reset">Imposta il valore predefinito</string>
+    <string name="vibration_control_description">Imposta l\'intensità della vibrazione per feedback aptico, chiamate in entrata e notifiche</string>
 </resources>

@@ -85,4 +85,10 @@
     <string name="reset_default_button_title">Сбросить настройки</string>
     <string name="reset_default_button_summary">Сбрасывает все настройки KCAL</string>
     <string name="contrast_slider_title">Контраст</string>
+    
+    <!-- Vibration -->
+    <string name="vibration_control_title">Настройка вибрации</string>
+    <string name="vibration_control_summary">Настройте силу вибрации</string>
+    <string name="vibration_reset">Установлено значение по-умолчанию</string>
+    <string name="vibration_control_description">Настройте силу вибрации для тактильной отдачи, входящего звонка и входящего уведомления</string>
 </resources>

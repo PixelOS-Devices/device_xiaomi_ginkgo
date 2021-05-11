@@ -27,7 +27,7 @@ import androidx.preference.PreferenceManager;
 
 import org.lineageos.settings.dirac.DiracUtils;
 import org.lineageos.settings.display.KcalUtils;
-import org.lineageos.settings.utils.VibrationUtils;
+import org.lineageos.settings.vibrator.VibratorSettings;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
     private static final boolean DEBUG = false;
@@ -45,8 +45,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (KcalUtils.isKcalSupported())
             KcalUtils.writeCurrentSettings(sharedPrefs);
 
-        if (VibrationUtils.isAvailable()) {
-            VibrationUtils.setCurrentVibStrength(context);
-        }
+        VibratorSettings.restoreValue(context);
     }
 }

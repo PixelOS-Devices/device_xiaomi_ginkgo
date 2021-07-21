@@ -94,7 +94,7 @@ on post-fs-data
 # Silver Only configuration cannot work with 0-7
 on boot
     chown system system /sys/kernel/hbtp/display_pwr
-    start rmt_storage
+    start vendor.rmt_storage
     start rfs_access
     write /dev/cpuset/top-app/cpus 0-3
     write /dev/cpuset/audio-app/cpus 1-2

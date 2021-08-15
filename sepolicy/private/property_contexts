@@ -1,1 +1,4 @@
 ro.product.system.manufacturer u:object_r:exported2_default_prop:s0 exact string
+
+# XiaomiParts
+persist.lcd.                   u:object_r:persist_lcd_prop:s0

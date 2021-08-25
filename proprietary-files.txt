@@ -2030,6 +2030,7 @@ system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94
 system_ext/framework/qcrilhook.jar|f2888f922b8347417dfa86741feb8348795fce6f
 vendor/bin/ATFWD-daemon|0646e296cdc04a5fd755d6a5a8fceb2cd9fa48ad
 vendor/bin/adpl|a7ef739a68cffa6269cf215f0c21de11cd33f8fc
+vendor/bin/embmsslServer|8bca89360c0a21837d0932e49a95ad61db646b45
 vendor/bin/hw/qcrild|b593e369985cebb4235066363e77f861eb46662f
 vendor/bin/netmgrd|8d8c30e5d46365867bb311ebac3fbba45bc9c625
 vendor/bin/port-bridge|41a7c7d57044f469d7384c885e7b269b6c9ad96e
@@ -2047,6 +2048,7 @@ vendor/etc/data/netmgr_config.xml|94de91a8a5da2b98e3d25fabe45dc8b287a83fee
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
 vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/init-qcril-data.rc|890ac72fa49d0e52a263175a7b5b550539287800
+vendor/etc/init/init.embmssl_server.rc|e2f59e5d6223112bdcfbf9e9e69fe6abea3698b1
 vendor/etc/init/ipa_fws.rc|f1826b81077f51470c97781823f109f12361ac8b
 vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
 vendor/etc/init/port-bridge.rc|e52d61a0de5e8a3b21bfbfca929e862422645377
@@ -2057,6 +2059,7 @@ vendor/etc/init/vendor.qti.tftp.rc|b27f188cbffba470a4510d50e46ff7c8446c22cb
 vendor/etc/seccomp_policy/atfwd@2.0.policy|74fdb7d47bdb6d0cb06b13701a96a76c9171ab5d
 vendor/lib64/libconfigdb.so|b9c23b2bf88b7fbce47dcfd13f959bd313caf06a
 vendor/lib64/libdsi_netctrl.so|39e2e3c1716424f4f91910ff877124be96cbf5ab
+vendor/lib64/libembmsservice.so|ee4e30727129eda6de8f9befb83c7f1dec9492c5
 vendor/lib64/liblqe.so|125d2a0c964e59e0a6c79737920cf079a932d290
 vendor/lib64/libnetmgr.so|157c12c9521cd8120480a44e17c7eba71b0321e5
 vendor/lib64/libnetmgr_common.so|e4f54ef09ef59ae6d4a83163aff8927c6638722c
@@ -2082,6 +2085,10 @@ vendor/lib64/libsystem_health_mon.so|347aea4e5a655b87ebe8dcf72cd6414aced3a74e
 vendor/lib64/qcrild_librilutils.so|5d9354d0e0211c049ed731405fb8dbe3d84fa963
 vendor/lib64/qtibus.so|59c0ad0bb446b3f9721849accada24590a9a7f14
 vendor/lib64/qtimutex.so|49fb2f512a10bf2de587f44156382863c839d2c4
+vendor/lib64/vendor.qti.hardware.embmssl@1.0-adapter-helper.so|af284f9fee0a956d87b81705af0dd98ff5805836
+vendor/lib64/vendor.qti.hardware.embmssl@1.0.so|3d1ec041f6ecf79a1e732c17d302d9e6dc58456c
+vendor/lib64/vendor.qti.hardware.embmssl@1.1-adapter-helper.so|03631de9b3ad21566203258ceea743554019a19e
+vendor/lib64/vendor.qti.hardware.embmssl@1.1.so|4cfb0e3f1f7880ae5a72dadf78beb416346f97f6
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|911463b46f38268a6078fb4d3058f5e0a6ed0166
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|1865d53fd0b84f3c69ef9b274a69f7a5f9f04a22
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|881a8f10a1230752a6e864b4b4015e1f3c14820b

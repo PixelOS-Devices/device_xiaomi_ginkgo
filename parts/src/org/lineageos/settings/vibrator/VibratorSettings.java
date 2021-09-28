@@ -38,9 +38,13 @@ public class VibratorSettings extends PreferenceFragment implements
     public static final String VIB_STRENGTH = "vib_strength";
     public static final String VIB_PREFERENCE = "vib_preference";
     private static final String SEEKBAR_PROGRESS = "seek_bar_progress";
-    private static final int defaultValue = 3000;
-    private static final int minValue = 1000;
-    private static final int maxValue = 3600;
+
+    // default value is 85 percent
+    private static final int defaultValue = 3238;
+
+    // predefined values in kernel - drivers/leds/leds-qpnp-vibrator-ldo.c
+    private static final int minValue = 1504; /* QPNP_VIB_LDO_VMIN_UV */
+    private static final int maxValue = 3544; /* QPNP_VIB_LDO_VMAX_UV */
 
     private static Context mContext;
     private static TextView mSeekBarValue;

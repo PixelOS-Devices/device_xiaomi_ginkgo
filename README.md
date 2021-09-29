@@ -11,9 +11,9 @@ The Redmi Note 8T (codenamed "willow") is a mid-range smartphone from Xiaomi. Un
 | Chipset                 | Qualcomm SM6125 Snapdragon 665 (11 nm)                          |
 | CPU                     | Octa-core (4x2.0 GHz Kryo 260 Gold & 4x1.8 GHz Kryo 260 Silver) |
 | GPU                     | Adreno 610                                                      |
-| Memory                  | 3/4/6 GB                                                        |
+| Memory                  | 3/4/6 GB (LPDDR4X)                                              |
 | Shipped Android Version | 9.0 (MIUI 11)                                                   |
-| Storage                 | 32/64/128 GB eMMC                                               |
+| Storage                 | 32/64/128 GB eMMC 5.1                                           |
 | SIM                     | Dual SIM (Nano-SIM, dual stand-by)                              |
 | MicroSD                 | Up to 256 GB                                                    |
 | Battery                 | 4000 mAh Li-Po (non-removable)                                  |

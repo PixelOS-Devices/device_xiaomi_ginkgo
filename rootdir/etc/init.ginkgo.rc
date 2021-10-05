@@ -21,6 +21,12 @@ on post-fs
     start vendor.configstore-hal
     start vendor.qti.hardware.display.allocator
 
+on property:init.svc.vendor.hwcomposer-2-4=stopped
+    stop ppd
+
+on property:init.svc.vendor.hwcomposer-2-4=running
+    start ppd
+
 on boot
     # DT2W
     chmod 0660 /sys/touchpanel/double_tap

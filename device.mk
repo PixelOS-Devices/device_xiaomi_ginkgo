@@ -87,6 +87,7 @@ $(call inherit-product, vendor/miuicamera/config.mk)
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0.vendor \
+    android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     android.hidl.memory.block@1.0.vendor \

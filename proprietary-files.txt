@@ -114,39 +114,35 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
-# Bluetooth - from LA.UM.9.11.r1-04500-NICOBAR.0
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|a132038c2903931285d1a2e0b9142720c6fa4404
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib/btaudio_offload_if.so|752c3e774c1585f7842ecbd85180365d85fc789f
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|fe83838a042be0fd3b97a5b3c2e1c39fcc3d66fe
-vendor/lib/hw/audio.bluetooth_qti.default.so|0fc8e709075ba7e984a4d5a1e9f7143698a78f98
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|87e1b40c62c7fc70e1820baa8f69341638594681
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|7244f2cb17eb8ed5bb7257d446f99a0df0edb74c
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|cc9d165040040a179feb8e805cc9f8c2572d7e99
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|9fdb1a1c82707bbf5d4fe6f1f4d91ea95c0bd08e
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|e0c3c946fa332accfa791569c3d24d87e7fc04f1
-vendor/lib/libbluetooth_audio_session_qti.so|e38ec030645a240abf129896dbe5dd5c4f1cb5e4
-vendor/lib/libbluetooth_audio_session_qti_2_1.so|1e956cf73f6730241b64b0197844f065d2cdeab3
-vendor/lib/libbt-hidlclient.so|97b7ab1856183e684f94de089863357d1f391e8a
-vendor/lib/libbtnv.so|753252c216e48b154869197cefd512a066e30f5c
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|1cbc952b766df6aa9e047bd70c45ef73b6ddefdf
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|a12a7150bae59162de8cf1d0708f1d05119002af
-vendor/lib64/btaudio_offload_if.so|07f7cacc64d7d12c6a973b86989242cb27ae209c
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|dd8e87d55efc27600573699d40a9f1f7c8df8378
-vendor/lib64/hw/audio.bluetooth_qti.default.so|46daa1d6d718b6b2bc477eba31cf847fb3e17b0f
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|5ffc104d9e100edfdcdfe97f703806f821580df4
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.1-impl.so|97bb32b6594cb315836f09ce416e3a0e7e2a74fa
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|c43cf13b71b15d2f7facaef2989defa254bdfe31
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|e1551fdae4ad8e55ffc61c1757aa0fb47c9444dd
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|0ca85aa70b3c59a7feb2322a4c89648b071d7753
-vendor/lib64/libbluetooth_audio_session_qti.so|c14340cf4181f49f5cba2f058e4d3d53e7ef655b
-vendor/lib64/libbluetooth_audio_session_qti_2_1.so|3612588a76b7b6ad09cc9190709f1e54e3c390db
-vendor/lib64/libbt-hidlclient.so|b0f628ae43b2588266bc9ca51aa72544c1923372
-vendor/lib64/libbtnv.so|dd831c1c5734e0a59bdd1f80bcae3300c1f59be6
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|2816cf7ede31f13cc041ab54230ea3b5ca9cc3ef
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|6fe1aed00cd77677706cd6c62f08a2e591ab0608
+# Bluetooth - from sunfish-user 11 RP1A.200720.011 6746289 release-keys
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2aa101db92b5d447604da82e80241ca1ff90e1e0
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|d5fcb9c2cf5538b9c946b9263b144e714433a578
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|d476c3b775284adc58715d8c4eba611e57a14ae1
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|340b1be364b7bb00d9334ec5eb7a024b1ba8244d
+vendor/lib64/libbtnv.so|086a227f793822ef3eed15aea21a207c68feb7a9
+vendor/lib64/libbt-hidlclient.so|36e6ba270c948d2cc04a686026f51afd2ff29712
 
-# Bluetooth - aptX - from redfin-user 11 RQ1A.210205.004 7038034 release-keys
+# Bluetooth AFH - from sunfish-user 11 RP1A.200720.011 6746289 release-keys
+vendor/lib64/hw/vendor.qti.hardware.bt_channel_avoidance@1.0-impl.so|1d40e15715e3bb0b8a5a56c5a8d8e6a56da55b95
+vendor/lib64/vendor.qti.hardware.bt_channel_avoidance@1.0.so|1790304e928315e051855bccb7897d75fa41dc5e
+vendor/lib/hw/vendor.qti.hardware.bt_channel_avoidance@1.0-impl.so|c378868917b58a32de4b56b8db4db261ad5310d8
+vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so|e9ca98f2ebe8214185e1ece31fe035080c0c4055
+
+# Bluetooth Audio - from sunfish-user 11 RP1A.200720.011 6746289 release-keys
+vendor/lib64/btaudio_offload_if.so|15fccd6223460e4a86570e2afcfb328f9be04142
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|1ed1d39a21f63f264eb5ee8ce61236b576de3931
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|73a21d7de95341f64f65859c995064ddcfb0a422
+vendor/lib64/libbluetooth_audio_session_qti.so|155de8211750484596107b6e0a206075c69b2027
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|2bdd8a3fdcbc04f120c5647f2b289c73a132fb6b
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|6bc11d40eed839c52704483728f0e87c4e0f5d6f
+vendor/lib/btaudio_offload_if.so|2df45d5adf93ae9eba40e3e7e21398499acc3b7a
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|f6eca6bfa66496498a5a9e17f9701670a931a28f
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|d2d55bf0a11eed058a76406cfa5d45d63a0a4f21
+vendor/lib/libbluetooth_audio_session_qti.so|409fe8e1e261e7b004e1df5851ea3ae9f13a4547
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|5f907ebfb73087861b30cf1c69e07aeca2096620
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|d8cc4680848db03ddcfd99a53cbe1b15b7b282da
+
+# Bluetooth aptX - from sunfish-user-11-RQ3A.210705.001-7380771-release-keys
 system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 

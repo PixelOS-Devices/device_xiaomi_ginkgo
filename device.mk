@@ -467,5 +467,4 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libqdMetaData.system \
     libqdMetaData.vendor \
-    libwfdaac_vendor \
     vendor.display.config@2.0

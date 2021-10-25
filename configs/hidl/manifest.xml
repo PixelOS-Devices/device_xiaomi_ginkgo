@@ -251,6 +251,10 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <transport>hwbinder</transport>
         <fqname>@1.0::IService/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>android.hardware.drm</name>
+        <transport>hwbinder</transport>
+    </hal>
     <!-- RADIO -->
     <hal format="hidl">
         <name>android.hardware.radio</name>

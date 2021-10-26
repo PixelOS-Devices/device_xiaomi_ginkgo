@@ -2404,3 +2404,20 @@ vendor/bin/cnss-daemon
 vendor/bin/wifilearner
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc
 vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so
+
+# WiFi Display - HDCP - from LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/wfdhdcphalservice|c459a9dce083f9a2b2d8c7c49903514b87528fda
+vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc|c266f08783a17f6583e3f22c85e55b0c200442ea
+vendor/etc/seccomp_policy/wfdhdcphalservice.policy|a489ab323be4be2df3de9f84a6b5e6cef924f4c4
+vendor/lib/libhdcp1prov.so|6ff7f94b500222d5c4bfe370a4e45a78dd438987
+vendor/lib/libhdcp2p2prov.so|1a7253e8242fb81c7028cf9684d274d1d62bf8f7
+vendor/lib/libhdcpsrm.so|a0ac1db2bf56a61cfd398cbab5b8293938fc0164
+vendor/lib/libmm-hdcpmgr.so|b7a14d1df4f999b2c9148f8ac8cfeb4645134374
+vendor/lib/libwfdhdcpcp.so|c23ab29e4860d5eaca6de2c07af5dd86a4866643
+vendor/lib/libwfdhdcpservice_proprietary.so|ff77a9c12b4f566bb49ba57145d84f050f0ba182
+vendor/lib/libwfdmodulehdcpsession.so|c0bc85dd67703f2af604ddc35c4e6cb7df1b3596
+vendor/lib64/libhdcp1prov.so|6057c2ce317c945b6aa04a15da16e5e8881ffd1f
+vendor/lib64/libhdcp2p2prov.so|f1f20ff6b082faafa257862f079df05928e1d44d
+vendor/lib64/libhdcpsrm.so|ac9c8dad21fb467898d21cf5e159ef968809d909
+vendor/lib64/libmm-hdcpmgr.so|2f674c592254dcf833bae4dbfb5a82aa511a7d36
+vendor/lib64/libwfdhdcpcp.so|ce274dd1c2538dda15ec24367d7e4bca94312ed2

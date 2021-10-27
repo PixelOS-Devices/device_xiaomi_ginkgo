@@ -1846,8 +1846,9 @@ vendor/lib64/unnhal-acc-adreno.so|fcc7574b2d6f686e28dae4e42c04ceef5e790c10
 vendor/lib64/unnhal-acc-common.so|e37d2113f99506f1de85902a0fdee0b443342942
 vendor/lib64/unnhal-acc-hvx.so|00eb79608cb6e3f19eaf9389632fdbfa03b2df62
 
-# NFC
-vendor/lib/libsn100u_fw.so
+# NFC - from LA.UM.9.11.r1-04500-NICOBAR.0
+vendor/bin/nqnfcinfo|be17822d9e7e8445db8d100e8e61f8e397a48313
+vendor/lib/libsn100u_fw.so|2bc1887b71b4557b75e26465f6917525bfd43e4a
 
 # PASR Manager - from LA.UM.9.11.r1-04500-NICOBAR.0
 -vendor/app/pasrservice/pasrservice.apk|6d4e8bab2426b03231531ec09bce922601b8e8e6

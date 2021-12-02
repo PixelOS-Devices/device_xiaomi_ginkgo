@@ -22,9 +22,6 @@ persist.vendor.dpm.feature=11
 persist.vendor.dpmhalservice.enable=1
 
 # Display
-ro.surface_flinger.supports_background_blur=1
-persist.sys.sf.disable_blurs=1
-ro.sf.blurs_are_expensive=1
 persist.lcd.cabc_mode=1
 persist.lcd.hbm_mode=0
 

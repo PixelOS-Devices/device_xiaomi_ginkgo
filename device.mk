@@ -241,6 +241,10 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-impl \
+    android.hardware.media.omx@1.0-service
+
+PRODUCT_PACKAGES += \
     libc2dcolorconvert \
     libmm-omxcore \
     libOmxAacEnc \
@@ -253,6 +257,7 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libplatformconfig \
     libstagefrighthw \
+    libstagefright_omx.vendor \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
 PRODUCT_COPY_FILES += \

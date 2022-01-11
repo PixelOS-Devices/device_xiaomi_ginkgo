@@ -63,17 +63,18 @@
     <string name="dirac_preset_country">Country</string>
     <string name="dirac_preset_dance">Dance</string>
     <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_bass_booster">Penguat Bass</string>
 
      <!-- QS tile title -->
     <string name="dirac_qs_tile_title">Suara Mi</string>
 
     <!-- Clear Speaker -->
-    <string name="clear_speaker_title">Pembersih speaker</string>
+    <string name="clear_speaker_title">Pembersih Speaker</string>
     <string name="clear_speaker_summary">Putar audio 30-detik untuk membersihkan speaker</string>
-    <string name="clear_speaker_description">Jalankan fitur ini satu atau dua kali jika speaker anda sedikit terhalang oleh debu. Atur volume media ke maksimum.\n\nJika speaker sangat terhalang, jalankan fitur ini 2-5 kali sambil menggoyangkan perangkat anda dengan speaker menghadap ke bawah.</string>
+    <string name="clear_speaker_description">Jalankan fitur ini satu atau dua kali jika speaker anda sedikit terhalang oleh debu. Atur volume media ke maksimum.\n\nJika speaker sangat terhalang, jalankan fitur ini 2-5 kali sambil menggoyangkan perangkat anda dengan speaker menghadap ke bawah. \n\nPERINGATAN: Pastikan headphone sudah dicabut.</string>
     
     <!-- Kcal settings -->
-    <string name="kcal_settings_title">Kalibrasi warna layar</string>
+    <string name="kcal_settings_title">Kalibrasi Warna Layar</string>
     <string name="kcal_settings_summary">Sesuaikan warna layar anda menggunakan KCAL</string>
     <string name="kcal_enable_title">Aktifkan konfigurasi warna layar</string>
     <string name="kcal_enable_summary">Mengaktifkan konfigurasi warna layar untuk penyesuaian kustom</string>
@@ -86,4 +87,16 @@
     <string name="reset_default_button_title">Setel ulang ke konfigurasi bawaan</string>
     <string name="reset_default_button_summary">Setel ulang semua konfigurasi layar ini</string>
     <string name="contrast_slider_title">Kontras</string>
+
+    <!-- Vibration -->
+    <string name="vibration_title">Kontrol Getaran</string>
+    <string name="vibration_strength_title">Kuat getaran</string>
+
+    <!-- LCD Features -->
+    <string name="lcd_features_title">Fitur LCD</string>
+    <string name="lcd_features_summary">Mode Kecerahan Tinggi, CABC</string>
+    <string name="lcd_hbm_title">Mode Kecerahan Tinggi (HBM)</string>
+    <string name="lcd_hbm_tile_title">HBM</string>
+    <string name="lcd_cabc_title">Mode CABC</string>
+    <string name="lcd_features_info">Mode Kecerahan Tinggi (HBM) meningkatkan kecerahan tampilan maksimum untuk meningkatkan visibilitas di bawah sinar matahari. Meningkatkan konsumsi daya.\n\nKontrol Lampu Latar Adaptif Konten (CABC) menyesuaikan kecerahan layar dan lampu latar berdasarkan konten yang ditampilkan saat ini untuk mengurangi konsumsi daya tanpa degradasi.</string>
 </resources>

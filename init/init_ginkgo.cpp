@@ -38,12 +38,12 @@ void property_override(string prop, string value)
 
 void vendor_load_properties()
 {
-    string device, model, desc;
+    string device, model;
 
     string region = GetProperty("ro.boot.hwc", "");
     string hwversion = GetProperty("ro.boot.hwversion", "");
 
-    if (region == "Global_B" && (hwversion == "18.31.0" || 
+    if (region == "Global_B" && (hwversion == "18.31.0" ||
         hwversion == "18.39.0" || hwversion == "19.39.0")) {
         device = "willow";
         model = "Redmi Note 8T";
@@ -68,9 +68,6 @@ void vendor_load_properties()
 
     // Set hardware SKU prop
     property_override("ro.boot.product.hardware.sku", device);
-
-    // Set build fingerprint for SafetyNet
-    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 
     // Set camera model for EXIF data
     property_override("persist.vendor.camera.model", model);

@@ -1,11 +1,11 @@
 # Thermal
-type thermal_engine_prop, property_type;
+vendor_internal_prop(thermal_engine_prop)
 
 # IR
-type lirc_prop, property_type;
+vendor_internal_prop(lirc_prop)
 
 # Fingerprint
-type vendor_fp_prop, property_type;
+vendor_internal_prop(vendor_fp_prop)
 
 # Power HAL
 type vendor_power_prop, property_type;

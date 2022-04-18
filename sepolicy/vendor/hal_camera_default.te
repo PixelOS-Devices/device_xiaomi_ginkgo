@@ -8,3 +8,5 @@ allow hal_camera_default mnt_vendor_file:dir r_dir_perms;
 
 set_prop(hal_camera_default, vendor_camera_prop)
 set_prop(hal_camera_default, vendor_video_prop)
+
+get_prop(hal_camera_default, bootanim_system_prop)

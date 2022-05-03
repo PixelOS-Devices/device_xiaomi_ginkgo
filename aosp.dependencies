@@ -14,22 +14,5 @@
         "repository": "kernel_xiaomi_ginkgo",
         "target_path": "kernel/xiaomi/ginkgo",
         "remote": "pixelos-devices"
-    },
-    {
-        "remote": "github",
-        "repository": "ArrowOS/android_hardware_qcom_audio",
-        "target_path": "hardware/qcom-caf/sm8150/audio",
-        "branch": "arrow-12.1-caf-sm8150"
-    }, 
-    {
-        "remote": "github",
-        "repository": "ArrowOS/android_hardware_qcom_media",
-        "target_path": "hardware/qcom-caf/sm8150/media",
-        "branch": "arrow-12.1-caf-sm8150"
-    }, 
-    {
-        "repository": "ArrowOS/android_hardware_qcom_display",
-        "target_path": "hardware/qcom-caf/sm8150/display",
-        "branch": "arrow-12.1-caf-sm8150"
     }
 ]

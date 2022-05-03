@@ -826,4 +826,6 @@
     -->
     <integer name="config_keyChordPowerVolumeUp">1</integer>
 
+    <!-- Exempt cne from privacy (location) indicators -->
+    <string name="config_systemTelephonyPackage" translatable="false">com.qualcomm.qti.cne</string>
 </resources>

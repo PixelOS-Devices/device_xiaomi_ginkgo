@@ -2554,3 +2554,6 @@ vendor/bin/cnss-daemon|a32c66984f3ec7e4b12406c56500a36a3571f087
 vendor/bin/wifilearner|f728fd2f5f3cf315997577a395f82fc9d263b701
 vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc|aacefc44da5e64760bc12779a83b905ca6b78f01
 vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so|6c97745c1ea800bfa01f68a3468e6c7be08a978e
+
+# Wlan firmware
+vendor/firmware/wlan/qca_cld/wlan_mac.bin

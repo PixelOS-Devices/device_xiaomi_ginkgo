@@ -89,6 +89,7 @@ LOC_HIDL_VERSION := 4.0
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/framework_manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE  := $(DEVICE_PATH)/configs/hidl/device_framework_compatibility_matrix.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/hidl/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/hidl/compatibility_matrix.xml
 ODM_MANIFEST_WILLOW_FILES := $(DEVICE_PATH)/configs/hidl/manifest_willow.xml

@@ -43,3 +43,8 @@ genfscon proc /sys/kernel/sched_boost u:object_r:proc_sched_boost:s0
 genfscon sysfs /devices/platform/soc/5e00000.qcom,mdss_mdp/idle_encoder_mask         u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/5e00000.qcom,mdss_mdp/idle_state                u:object_r:vendor_sysfs_graphics:s0
 genfscon sysfs /devices/platform/soc/5e00000.qcom,mdss_mdp/idle_timeout_ms           u:object_r:vendor_sysfs_graphics:s0
+
+# Extcon sysfs
+genfscon sysfs /devices/platform/soc/soc:qcom,msm-ext-disp/extcon                                                                                                                                                              u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/soc/1610000.qcom,msm-eud/extcon/                                                                                                                                                              u:object_r:sysfs_extcon:s0
+genfscon sysfs /devices/platform/soc/1c40000.qcom,spmi/spmi-0/spmi0-02/1c40000.qcom,spmi:qcom,pmi632@2:qcom,qpnp-smb5/extcon                                                                                                   u:object_r:sysfs_extcon:s0

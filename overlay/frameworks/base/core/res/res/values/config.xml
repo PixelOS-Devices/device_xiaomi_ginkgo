@@ -827,4 +827,7 @@
     <!-- List of comma separated package names for which we the system will not show crash like
          tts, etc. dialogs. -->
     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
+
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
 </resources>

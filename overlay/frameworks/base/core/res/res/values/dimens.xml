@@ -22,7 +22,10 @@
     <!-- Adjust the icon padding in status bar for rounded corners --> 
     <dimen name="rounded_corner_content_padding">40px</dimen>
 
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">80.0px</dimen>
-    <dimen name="status_bar_height_landscape">28.0dp</dimen>
+    <!-- Height of the status bar.
+         Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
+         -->
+    <dimen name="status_bar_height_default">28dp</dimen>
+    <dimen name="status_bar_height_portrait">80px</dimen>
+    <dimen name="status_bar_height_landscape">28dp</dimen>
 </resources>

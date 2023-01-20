@@ -35,4 +35,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
     <!-- Unify back gesture vibration with system wide haptics -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
+
+    <!-- StatusBar burn-in protection -->
+    <bool name="config_disableStatusBarBurnInProtection">true</bool>
 </resources>

@@ -28,4 +28,7 @@
     <dimen name="status_bar_height_default">28dp</dimen>
     <dimen name="status_bar_height_portrait">80px</dimen>
     <dimen name="status_bar_height_landscape">28dp</dimen>
+
+    <!-- Margin on the left side of the carrier text on Keyguard -->
+    <dimen name="keyguard_carrier_text_margin">30dp</dimen>
 </resources>

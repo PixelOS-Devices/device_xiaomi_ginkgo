@@ -149,6 +149,6 @@ on property:vendor.post_boot.parsed=1
     # Enable PowerHAL hint processing
     setprop vendor.powerhal.init 1
 
-on charger
+on property:init.svc.vendor.charger=running
     chown system system /sys/class/leds/red/brightness
     write /sys/class/leds/red/brightness 255
